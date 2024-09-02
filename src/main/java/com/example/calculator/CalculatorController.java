@@ -52,4 +52,9 @@ public class CalculatorController {
             throw new IllegalArgumentException("Ошибка: оба параметра num1 и num2 должны быть указаны.");
         }
     }
+
+    public String getWelcome() {
+        return welcome();
+    }
+
 }
