@@ -17,7 +17,7 @@ public class CalculatorService {
             if (num1 == null || num2 == null) {
                 throw new IllegalArgumentException("Один из параметров не передан");
             }
-            return num1 + " − " + num2 + " = " + (num1 - num2);
+            return num1 + " - " + num2 + " = " + (num1 - num2);
         }
 
         public String multiply(Integer num1, Integer num2) {
